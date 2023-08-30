@@ -5,6 +5,6 @@ This is a Python implementation of Salty.PW password hashing algorithm. With onl
 On Linux, add the following line to .bashrc and you can generate your passwords from command line straight to clipboard without ever displaying them:
 
 ```
-alias salty='/path/to/saltypy/salty.py|xclip -selection c'
+alias salty='/path/to/saltypy/salty.py|xclip -r -selection c'
 ```
 
